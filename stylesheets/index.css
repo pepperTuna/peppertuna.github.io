@@ -1,20 +1,25 @@
+img {
+	height: 100px;
+	width: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
 img.rotate {
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
-  -moz-border-radius: 50px;
-  -webkit-border-radius:50px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out; 
-  -o-transition: all 0.3s ease-in-out; 
-  -ms-transition: all 0.3s ease-in-out; 
-  transition: all 0.3s ease-in-out; 
+	width: 100px;
+	border-radius: 50em;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 img.rotate:hover {
-  -webkit-transform: rotate(180deg); 
-  -moz-transform: rotate(180deg); 
-  -o-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
-} 
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
